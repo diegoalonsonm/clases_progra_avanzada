@@ -1,0 +1,14 @@
+C:\Users\diego\source\repos\MiPrimerLaboratorio\Inventario.LogicaNegocio\bin\Debug\Inventario.LogicaNegocio.dll
+C:\Users\diego\source\repos\MiPrimerLaboratorio\Inventario.LogicaNegocio\bin\Debug\Inventario.LogicaNegocio.pdb
+C:\Users\diego\source\repos\MiPrimerLaboratorio\Inventario.LogicaNegocio\bin\Debug\Inventario.Abstracciones.dll
+C:\Users\diego\source\repos\MiPrimerLaboratorio\Inventario.LogicaNegocio\bin\Debug\Inventario.Abstracciones.pdb
+C:\Users\diego\source\repos\MiPrimerLaboratorio\Inventario.LogicaNegocio\obj\Debug\Inventario.LogicaNegocio.csproj.AssemblyReference.cache
+C:\Users\diego\source\repos\MiPrimerLaboratorio\Inventario.LogicaNegocio\obj\Debug\Inventario.LogicaNegocio.csproj.CoreCompileInputs.cache
+C:\Users\diego\source\repos\MiPrimerLaboratorio\Inventario.LogicaNegocio\obj\Debug\Inventar.B184063C.Up2Date
+C:\Users\diego\source\repos\MiPrimerLaboratorio\Inventario.LogicaNegocio\obj\Debug\Inventario.LogicaNegocio.dll
+C:\Users\diego\source\repos\MiPrimerLaboratorio\Inventario.LogicaNegocio\obj\Debug\Inventario.LogicaNegocio.pdb
+C:\Users\diego\source\repos\MiPrimerLaboratorio\Inventario.LogicaNegocio\bin\Debug\Inventario.AccesoDatos.dll
+C:\Users\diego\source\repos\MiPrimerLaboratorio\Inventario.LogicaNegocio\bin\Debug\EntityFramework.dll
+C:\Users\diego\source\repos\MiPrimerLaboratorio\Inventario.LogicaNegocio\bin\Debug\Inventario.AccesoDatos.pdb
+C:\Users\diego\source\repos\MiPrimerLaboratorio\Inventario.LogicaNegocio\bin\Debug\Inventario.AccesoDatos.dll.config
+C:\Users\diego\source\repos\MiPrimerLaboratorio\Inventario.LogicaNegocio\bin\Debug\EntityFramework.xml

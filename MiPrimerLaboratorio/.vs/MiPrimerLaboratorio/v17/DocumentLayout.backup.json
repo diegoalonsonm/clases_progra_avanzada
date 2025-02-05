@@ -1,0 +1,37 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\diego\\source\\repos\\clases_progra_avanzada\\MiPrimerLaboratorio\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{3E493576-F7CC-4527-A327-F9F67B32AF99}|Inventario.LogicaNegocio\\Inventario.LogicaNegocio.csproj|c:\\users\\diego\\source\\repos\\clases_progra_avanzada\\miprimerlaboratorio\\inventario.logicanegocio\\inventario\\listarinventario\\listarinventarioln.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3E493576-F7CC-4527-A327-F9F67B32AF99}|Inventario.LogicaNegocio\\Inventario.LogicaNegocio.csproj|solutionrelative:inventario.logicanegocio\\inventario\\listarinventario\\listarinventarioln.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "ListarInventarioLN.cs",
+              "DocumentMoniker": "C:\\Users\\diego\\source\\repos\\clases_progra_avanzada\\MiPrimerLaboratorio\\Inventario.LogicaNegocio\\Inventario\\ListarInventario\\ListarInventarioLN.cs",
+              "RelativeDocumentMoniker": "Inventario.LogicaNegocio\\Inventario\\ListarInventario\\ListarInventarioLN.cs",
+              "ToolTip": "C:\\Users\\diego\\source\\repos\\clases_progra_avanzada\\MiPrimerLaboratorio\\Inventario.LogicaNegocio\\Inventario\\ListarInventario\\ListarInventarioLN.cs",
+              "RelativeToolTip": "Inventario.LogicaNegocio\\Inventario\\ListarInventario\\ListarInventarioLN.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABgAAABUAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-01T22:19:52.705Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

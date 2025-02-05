@@ -1,0 +1,14 @@
+C:\Users\diego\source\repos\MiPrimerLaboratorio\Inventario.AccesoDatos\bin\Debug\Inventario.AccesoDatos.dll.config
+C:\Users\diego\source\repos\MiPrimerLaboratorio\Inventario.AccesoDatos\bin\Debug\Inventario.AccesoDatos.dll
+C:\Users\diego\source\repos\MiPrimerLaboratorio\Inventario.AccesoDatos\bin\Debug\Inventario.AccesoDatos.pdb
+C:\Users\diego\source\repos\MiPrimerLaboratorio\Inventario.AccesoDatos\bin\Debug\EntityFramework.dll
+C:\Users\diego\source\repos\MiPrimerLaboratorio\Inventario.AccesoDatos\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\diego\source\repos\MiPrimerLaboratorio\Inventario.AccesoDatos\bin\Debug\EntityFramework.xml
+C:\Users\diego\source\repos\MiPrimerLaboratorio\Inventario.AccesoDatos\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\diego\source\repos\MiPrimerLaboratorio\Inventario.AccesoDatos\obj\Debug\Inventario.AccesoDatos.csproj.AssemblyReference.cache
+C:\Users\diego\source\repos\MiPrimerLaboratorio\Inventario.AccesoDatos\obj\Debug\Inventario.AccesoDatos.csproj.CoreCompileInputs.cache
+C:\Users\diego\source\repos\MiPrimerLaboratorio\Inventario.AccesoDatos\obj\Debug\Inventar.C325A4D4.Up2Date
+C:\Users\diego\source\repos\MiPrimerLaboratorio\Inventario.AccesoDatos\obj\Debug\Inventario.AccesoDatos.dll
+C:\Users\diego\source\repos\MiPrimerLaboratorio\Inventario.AccesoDatos\obj\Debug\Inventario.AccesoDatos.pdb
+C:\Users\diego\source\repos\MiPrimerLaboratorio\Inventario.AccesoDatos\bin\Debug\Inventario.Abstracciones.dll
+C:\Users\diego\source\repos\MiPrimerLaboratorio\Inventario.AccesoDatos\bin\Debug\Inventario.Abstracciones.pdb

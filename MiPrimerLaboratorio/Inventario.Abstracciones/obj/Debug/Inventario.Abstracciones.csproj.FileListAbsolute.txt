@@ -1,0 +1,6 @@
+C:\Users\diego\source\repos\MiPrimerLaboratorio\Inventario.Abstracciones\bin\Debug\Inventario.Abstracciones.dll
+C:\Users\diego\source\repos\MiPrimerLaboratorio\Inventario.Abstracciones\bin\Debug\Inventario.Abstracciones.pdb
+C:\Users\diego\source\repos\MiPrimerLaboratorio\Inventario.Abstracciones\obj\Debug\Inventario.Abstracciones.csproj.AssemblyReference.cache
+C:\Users\diego\source\repos\MiPrimerLaboratorio\Inventario.Abstracciones\obj\Debug\Inventario.Abstracciones.csproj.CoreCompileInputs.cache
+C:\Users\diego\source\repos\MiPrimerLaboratorio\Inventario.Abstracciones\obj\Debug\Inventario.Abstracciones.dll
+C:\Users\diego\source\repos\MiPrimerLaboratorio\Inventario.Abstracciones\obj\Debug\Inventario.Abstracciones.pdb
