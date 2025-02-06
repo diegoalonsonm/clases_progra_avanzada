@@ -41,6 +41,8 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="General\Fecha.cs" />
+    <Compile Include="Inventario\CrearInventario\CrearInventarioLN.cs" />
     <Compile Include="Inventario\ListarInventario\ListarInventarioLN.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>

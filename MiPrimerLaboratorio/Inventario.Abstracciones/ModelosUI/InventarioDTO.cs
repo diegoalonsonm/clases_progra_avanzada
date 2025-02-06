@@ -11,6 +11,8 @@ namespace Inventario.Abstracciones.ModelosUI
 {
     public class InventarioDTO
     {
+        public int Id { get; set; }
+
         [DisplayName("Código del Repuesto")]
         [MinLength(4)]
         [Required]

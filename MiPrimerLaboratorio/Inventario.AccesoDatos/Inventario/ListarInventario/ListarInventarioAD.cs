@@ -23,6 +23,7 @@ namespace Inventario.AccesoDatos.Inventario.ListarInventario
         {
             List<InventarioAD> listaBD = _contexto.inventario.ToList();
             List<InventarioDTO> listaDTO = (from inventario in _contexto.inventario select new InventarioDTO {
+                Id = inventario.Id,
                 CodigoDelRepuesto = inventario.CodigoDelRepuesto,
                 NombreDelRepuesto = inventario.NombreDelRepuesto,
                 MarcaDelRepuesto = inventario.MarcaDelRepuesto,

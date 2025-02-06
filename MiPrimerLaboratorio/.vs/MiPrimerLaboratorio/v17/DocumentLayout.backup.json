@@ -3,8 +3,24 @@
   "WorkspaceRootPath": "C:\\Users\\diego\\source\\repos\\clases_progra_avanzada\\MiPrimerLaboratorio\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{3E493576-F7CC-4527-A327-F9F67B32AF99}|Inventario.LogicaNegocio\\Inventario.LogicaNegocio.csproj|c:\\users\\diego\\source\\repos\\clases_progra_avanzada\\miprimerlaboratorio\\inventario.logicanegocio\\inventario\\listarinventario\\listarinventarioln.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3E493576-F7CC-4527-A327-F9F67B32AF99}|Inventario.LogicaNegocio\\Inventario.LogicaNegocio.csproj|solutionrelative:inventario.logicanegocio\\inventario\\listarinventario\\listarinventarioln.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{01AA52DD-6E27-43F0-BD5A-30C653BE898E}|Inventario.Abstracciones\\Inventario.Abstracciones.csproj|c:\\users\\diego\\source\\repos\\clases_progra_avanzada\\miprimerlaboratorio\\inventario.abstracciones\\logicanegocio\\inventario\\crearinventarioln\\icrearinventarioln.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{01AA52DD-6E27-43F0-BD5A-30C653BE898E}|Inventario.Abstracciones\\Inventario.Abstracciones.csproj|solutionrelative:inventario.abstracciones\\logicanegocio\\inventario\\crearinventarioln\\icrearinventarioln.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{01AA52DD-6E27-43F0-BD5A-30C653BE898E}|Inventario.Abstracciones\\Inventario.Abstracciones.csproj|c:\\users\\diego\\source\\repos\\clases_progra_avanzada\\miprimerlaboratorio\\inventario.abstracciones\\modelosui\\estadoinventario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{01AA52DD-6E27-43F0-BD5A-30C653BE898E}|Inventario.Abstracciones\\Inventario.Abstracciones.csproj|solutionrelative:inventario.abstracciones\\modelosui\\estadoinventario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{01AA52DD-6E27-43F0-BD5A-30C653BE898E}|Inventario.Abstracciones\\Inventario.Abstracciones.csproj|c:\\users\\diego\\source\\repos\\clases_progra_avanzada\\miprimerlaboratorio\\inventario.abstracciones\\accessodatos\\inventario\\crearinventario\\icrearinventario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{01AA52DD-6E27-43F0-BD5A-30C653BE898E}|Inventario.Abstracciones\\Inventario.Abstracciones.csproj|solutionrelative:inventario.abstracciones\\accessodatos\\inventario\\crearinventario\\icrearinventario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3E493576-F7CC-4527-A327-F9F67B32AF99}|Inventario.LogicaNegocio\\Inventario.LogicaNegocio.csproj|c:\\users\\diego\\source\\repos\\clases_progra_avanzada\\miprimerlaboratorio\\inventario.logicanegocio\\inventario\\crearinventario\\crearinventarioln.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3E493576-F7CC-4527-A327-F9F67B32AF99}|Inventario.LogicaNegocio\\Inventario.LogicaNegocio.csproj|solutionrelative:inventario.logicanegocio\\inventario\\crearinventario\\crearinventarioln.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3E493576-F7CC-4527-A327-F9F67B32AF99}|Inventario.LogicaNegocio\\Inventario.LogicaNegocio.csproj|c:\\users\\diego\\source\\repos\\clases_progra_avanzada\\miprimerlaboratorio\\inventario.logicanegocio\\general\\fecha.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3E493576-F7CC-4527-A327-F9F67B32AF99}|Inventario.LogicaNegocio\\Inventario.LogicaNegocio.csproj|solutionrelative:inventario.logicanegocio\\general\\fecha.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -19,15 +35,79 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "ListarInventarioLN.cs",
-              "DocumentMoniker": "C:\\Users\\diego\\source\\repos\\clases_progra_avanzada\\MiPrimerLaboratorio\\Inventario.LogicaNegocio\\Inventario\\ListarInventario\\ListarInventarioLN.cs",
-              "RelativeDocumentMoniker": "Inventario.LogicaNegocio\\Inventario\\ListarInventario\\ListarInventarioLN.cs",
-              "ToolTip": "C:\\Users\\diego\\source\\repos\\clases_progra_avanzada\\MiPrimerLaboratorio\\Inventario.LogicaNegocio\\Inventario\\ListarInventario\\ListarInventarioLN.cs",
-              "RelativeToolTip": "Inventario.LogicaNegocio\\Inventario\\ListarInventario\\ListarInventarioLN.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABgAAABUAAAAAAAAAA==",
+              "Title": "ICrearInventarioLN.cs",
+              "DocumentMoniker": "C:\\Users\\diego\\source\\repos\\clases_progra_avanzada\\MiPrimerLaboratorio\\Inventario.Abstracciones\\LogicaNegocio\\Inventario\\CrearInventarioLN\\ICrearInventarioLN.cs",
+              "RelativeDocumentMoniker": "Inventario.Abstracciones\\LogicaNegocio\\Inventario\\CrearInventarioLN\\ICrearInventarioLN.cs",
+              "ToolTip": "C:\\Users\\diego\\source\\repos\\clases_progra_avanzada\\MiPrimerLaboratorio\\Inventario.Abstracciones\\LogicaNegocio\\Inventario\\CrearInventarioLN\\ICrearInventarioLN.cs",
+              "RelativeToolTip": "Inventario.Abstracciones\\LogicaNegocio\\Inventario\\CrearInventarioLN\\ICrearInventarioLN.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-01T22:19:52.705Z",
+              "WhenOpened": "2025-02-06T02:21:00.789Z",
               "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "EstadoInventario.cs",
+              "DocumentMoniker": "C:\\Users\\diego\\source\\repos\\clases_progra_avanzada\\MiPrimerLaboratorio\\Inventario.Abstracciones\\ModelosUI\\EstadoInventario.cs",
+              "RelativeDocumentMoniker": "Inventario.Abstracciones\\ModelosUI\\EstadoInventario.cs",
+              "ToolTip": "C:\\Users\\diego\\source\\repos\\clases_progra_avanzada\\MiPrimerLaboratorio\\Inventario.Abstracciones\\ModelosUI\\EstadoInventario.cs",
+              "RelativeToolTip": "Inventario.Abstracciones\\ModelosUI\\EstadoInventario.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAPAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-06T02:17:00.152Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "ICrearInventario.cs",
+              "DocumentMoniker": "C:\\Users\\diego\\source\\repos\\clases_progra_avanzada\\MiPrimerLaboratorio\\Inventario.Abstracciones\\AccessoDatos\\Inventario\\CrearInventario\\ICrearInventario.cs",
+              "RelativeDocumentMoniker": "Inventario.Abstracciones\\AccessoDatos\\Inventario\\CrearInventario\\ICrearInventario.cs",
+              "ToolTip": "C:\\Users\\diego\\source\\repos\\clases_progra_avanzada\\MiPrimerLaboratorio\\Inventario.Abstracciones\\AccessoDatos\\Inventario\\CrearInventario\\ICrearInventario.cs",
+              "RelativeToolTip": "Inventario.Abstracciones\\AccessoDatos\\Inventario\\CrearInventario\\ICrearInventario.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAnAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-06T02:04:56.007Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "CrearInventarioLN.cs",
+              "DocumentMoniker": "C:\\Users\\diego\\source\\repos\\clases_progra_avanzada\\MiPrimerLaboratorio\\Inventario.LogicaNegocio\\Inventario\\CrearInventario\\CrearInventarioLN.cs",
+              "RelativeDocumentMoniker": "Inventario.LogicaNegocio\\Inventario\\CrearInventario\\CrearInventarioLN.cs",
+              "ToolTip": "C:\\Users\\diego\\source\\repos\\clases_progra_avanzada\\MiPrimerLaboratorio\\Inventario.LogicaNegocio\\Inventario\\CrearInventario\\CrearInventarioLN.cs",
+              "RelativeToolTip": "Inventario.LogicaNegocio\\Inventario\\CrearInventario\\CrearInventarioLN.cs",
+              "ViewState": "AgIAAAsAAAAAAAAAAAAAAA4AAAAvAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-06T02:05:32.029Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Fecha.cs",
+              "DocumentMoniker": "C:\\Users\\diego\\source\\repos\\clases_progra_avanzada\\MiPrimerLaboratorio\\Inventario.LogicaNegocio\\General\\Fecha.cs",
+              "RelativeDocumentMoniker": "Inventario.LogicaNegocio\\General\\Fecha.cs",
+              "ToolTip": "C:\\Users\\diego\\source\\repos\\clases_progra_avanzada\\MiPrimerLaboratorio\\Inventario.LogicaNegocio\\General\\Fecha.cs",
+              "RelativeToolTip": "Inventario.LogicaNegocio\\General\\Fecha.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAeAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-06T02:08:29.948Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c64b9c2-e352-428e-a56d-0ace190b99a6}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{40ea2e6b-2121-4bb8-a43e-c83c04b51041}"
             }
           ]
         }

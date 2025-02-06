@@ -43,10 +43,18 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="AccessoDatos\Inventario\ActualizarInventario\IActualizarInventarioAD.cs" />
+    <Compile Include="AccessoDatos\Inventario\CrearInventario\ICrearInventario.cs" />
+    <Compile Include="AccessoDatos\Inventario\EliminarInventarioAD\IEliminarInventarioAD.cs" />
     <Compile Include="AccessoDatos\Inventario\ListarInventario\IListarInventarioAD.cs" />
+    <Compile Include="AccessoDatos\Inventario\ObtenerInvenstarioPorId\IObtenerInventarioPorIdAD.cs" />
+    <Compile Include="IFecha.cs" />
+    <Compile Include="LogicaNegocio\Inventario\CrearInventarioLN\ICrearInventarioLN.cs" />
     <Compile Include="LogicaNegocio\Inventario\ListarInventario\IListarInventarioLN.cs" />
+    <Compile Include="ModelosUI\EstadoInventario.cs" />
     <Compile Include="ModelosUI\InventarioDTO.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
