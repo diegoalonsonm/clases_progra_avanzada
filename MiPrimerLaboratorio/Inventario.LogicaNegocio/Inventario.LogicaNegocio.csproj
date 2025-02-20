@@ -41,9 +41,17 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Cliente\ActualizarCliente\ActualizarClienteLN.cs" />
+    <Compile Include="Cliente\CrearCliente\CrearClienteLN.cs" />
+    <Compile Include="Cliente\EliminarCliente\EliminarClienteLN.cs" />
+    <Compile Include="Cliente\ListarCliente\ListarClienteLN.cs" />
+    <Compile Include="Cliente\ObtenerClientePorId\ObtenerClientePorIdLN.cs" />
     <Compile Include="General\Fecha.cs" />
+    <Compile Include="Inventario\ActualizarInventario\ActualizarInventarioLN.cs" />
     <Compile Include="Inventario\CrearInventario\CrearInventarioLN.cs" />
+    <Compile Include="Inventario\EliminarInventario\EliminarInventarioLN.cs" />
     <Compile Include="Inventario\ListarInventario\ListarInventarioLN.cs" />
+    <Compile Include="Inventario\ObtenerInventarioId\ObtenerInventarioIdLN.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
@@ -56,5 +64,6 @@
       <Name>Inventario.AccesoDatos</Name>
     </ProjectReference>
   </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

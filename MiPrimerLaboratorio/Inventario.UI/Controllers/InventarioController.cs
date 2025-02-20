@@ -1,9 +1,19 @@
-﻿using Inventario.Abstracciones.LogicaNegocio.Inventario.ListarInventario;
+﻿using Inventario.Abstracciones.AccessoDatos.Inventario.ObtenerInvenstarioPorId;
+using Inventario.Abstracciones.LogicaNegocio.Inventario.ActualizarInventarioLN;
+using Inventario.Abstracciones.LogicaNegocio.Inventario.CrearInventarioLN;
+using Inventario.Abstracciones.LogicaNegocio.Inventario.EliminarInventarioLN;
+using Inventario.Abstracciones.LogicaNegocio.Inventario.ListarInventario;
+using Inventario.Abstracciones.LogicaNegocio.Inventario.ObtenerInventarioIdLN;
 using Inventario.Abstracciones.ModelosUI;
+using Inventario.LogicaNegocio.Inventario.ActualizarInventario;
+using Inventario.LogicaNegocio.Inventario.CrearInventario;
+using Inventario.LogicaNegocio.Inventario.EliminarInventario;
 using Inventario.LogicaNegocio.Inventario.ListarInventario;
+using Inventario.LogicaNegocio.Inventario.ObtenerInventarioId;
 using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Threading.Tasks;
 using System.Web;
 using System.Web.Mvc;
 using System.Web.SessionState;
@@ -12,11 +22,19 @@ namespace Inventario.UI.Controllers
 {
     public class InventarioController : Controller
     {
-        IListarInventarioLN _listarInventario;
+        private IListarInventarioLN _listarInventario;
+        private ICrearInventarioLN _crearInventario;
+        private IObtenerInventarioIdLN _obtenerInventarioId;
+        private IActualizarInventarioLN _actualizarInventario;
+        private IEliminarInventarioLN _eliminarInventario;
 
         public InventarioController()
         {
             _listarInventario = new ListarInventarioLN();
+            _crearInventario = new CrearInventarioLN();
+            _obtenerInventarioId = new ObtenerInventarioIdLN();
+            _actualizarInventario = new ActualizarInventarioLN();
+            _eliminarInventario = new EliminarInventarioLN();
         }
 
         // GET: Inventario
@@ -27,9 +45,9 @@ namespace Inventario.UI.Controllers
         }
 
         // GET: Inventario/Details/5
-        public ActionResult DetallesInventario()
+        public ActionResult DetallesInventario(int id)
         {
-            InventarioDTO inventario = new InventarioDTO();
+            InventarioDTO inventario = _obtenerInventarioId.ListarInventario(id);
             return View(inventario);
         }
 
@@ -41,12 +59,12 @@ namespace Inventario.UI.Controllers
 
         // POST: Inventario/Create
         [HttpPost]
-        public ActionResult CrearInventario(InventarioDTO inventario)
+        public async Task<ActionResult> CrearInventario(InventarioDTO inventario)
         {
             try
             {
                 if (inventario.archivo != null && inventario.archivo.ContentLength > 0)
-                {
+                {                   
                     byte[] arhicvoBytes;
                     using (var memoriaStream = new System.IO.MemoryStream())
                     {
@@ -55,9 +73,10 @@ namespace Inventario.UI.Controllers
                     }
 
                     string base64String = Convert.ToBase64String(arhicvoBytes);
+                    int cantidadRegistros = await _crearInventario.CrearInventario(inventario);
                 }
 
-                return RedirectToAction("Index");
+                return RedirectToAction("ListarInventario");
             }
             catch
             {
@@ -66,21 +85,22 @@ namespace Inventario.UI.Controllers
         }
 
         // GET: Inventario/Edit/5
-        public ActionResult EditarInventario()
+        public ActionResult EditarInventario(int id)
         {
-            InventarioDTO inventario = new InventarioDTO { Vehiculo= "Nissan" };
+            InventarioDTO inventario = _obtenerInventarioId.ListarInventario(id);
             return View(inventario);
         }
 
         // POST: Inventario/Edit/5
         [HttpPost]
-        public ActionResult EditarInventario(int id, FormCollection collection)
+        public ActionResult EditarInventario(int id, InventarioDTO inventario)
         {
             try
             {
-                // TODO: Add update logic here
+                inventario.Id = id;
+                _actualizarInventario.ActualizarInventario(inventario);
 
-                return RedirectToAction("Index");
+                return RedirectToAction("ListarInventario");
             }
             catch
             {
@@ -89,21 +109,22 @@ namespace Inventario.UI.Controllers
         }
 
         // GET: Inventario/Delete/5
-        public ActionResult EliminarInventario()
+        public ActionResult EliminarInventario(int id)
         {
-            InventarioDTO inventario = new InventarioDTO { Vehiculo = "Nissan" };
+            InventarioDTO inventario = _obtenerInventarioId.ListarInventario(id);
             return View(inventario);
         }
 
         // POST: Inventario/Delete/5
         [HttpPost]
-        public ActionResult EliminarInventario(int id, FormCollection collection)
+        public ActionResult EliminarInventario(int id, InventarioDTO inventario)
         {
             try
             {
-                // TODO: Add delete logic here
+                //inventario.Id = id;
+                _eliminarInventario.EliminarInventario(id);
 
-                return RedirectToAction("Index");
+                return RedirectToAction("ListarInventario");
             }
             catch
             {

@@ -43,14 +43,28 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="AccessoDatos\Inventario\ActualizarInventario\IActualizarInventarioAD.cs" />
-    <Compile Include="AccessoDatos\Inventario\CrearInventario\ICrearInventario.cs" />
+    <Compile Include="AccessoDatos\Cliente\ActualizarClienteAD\IActualizarClienteAD.cs" />
+    <Compile Include="AccessoDatos\Cliente\CrearClienteAD\ICrearClienteAD.cs" />
+    <Compile Include="AccessoDatos\Cliente\EliminarClienteAD\IEliminarClienteAD.cs" />
+    <Compile Include="AccessoDatos\Cliente\ListarClienteAD\IListarClienteAD.cs" />
+    <Compile Include="AccessoDatos\Cliente\ObtenerClientePorIdAD\IObtenerClientePorIdAD.cs" />
+    <Compile Include="AccessoDatos\Inventario\ActualizarInventarioAD\IActualizarInventarioAD.cs" />
+    <Compile Include="AccessoDatos\Inventario\CrearInventarioAD\ICrearInventario.cs" />
     <Compile Include="AccessoDatos\Inventario\EliminarInventarioAD\IEliminarInventarioAD.cs" />
-    <Compile Include="AccessoDatos\Inventario\ListarInventario\IListarInventarioAD.cs" />
-    <Compile Include="AccessoDatos\Inventario\ObtenerInvenstarioPorId\IObtenerInventarioPorIdAD.cs" />
-    <Compile Include="IFecha.cs" />
+    <Compile Include="AccessoDatos\Inventario\ListarInventarioAD\IListarInventarioAD.cs" />
+    <Compile Include="AccessoDatos\Inventario\ObtenerInvenstarioPorIdAD\IObtenerInventarioPorIdAD.cs" />
+    <Compile Include="General\IFecha.cs" />
+    <Compile Include="LogicaNegocio\Cliente\ActualizarClienteLN\IActualizarClienteLN.cs" />
+    <Compile Include="LogicaNegocio\Cliente\CrearClienteLN\ICrearClienteLN.cs" />
+    <Compile Include="LogicaNegocio\Cliente\EliminarClienteLN\IEliminarClienteLN.cs" />
+    <Compile Include="LogicaNegocio\Cliente\ListarClienteLN\IListarClienteLN.cs" />
+    <Compile Include="LogicaNegocio\Cliente\ObtenerClientePorIdLN\IObtenerClientePorIdLN.cs" />
+    <Compile Include="LogicaNegocio\Inventario\ActualizarInventarioLN\IActualizarInventarioLN.cs" />
     <Compile Include="LogicaNegocio\Inventario\CrearInventarioLN\ICrearInventarioLN.cs" />
-    <Compile Include="LogicaNegocio\Inventario\ListarInventario\IListarInventarioLN.cs" />
+    <Compile Include="LogicaNegocio\Inventario\EliminarInventarioLN\IEliminarInventarioLN.cs" />
+    <Compile Include="LogicaNegocio\Inventario\ListarInventarioLN\IListarInventarioLN.cs" />
+    <Compile Include="LogicaNegocio\Inventario\ObtenerInventarioIdLN\IObtenerInventarioIdLN.cs" />
+    <Compile Include="ModelosUI\ClienteDTO.cs" />
     <Compile Include="ModelosUI\EstadoInventario.cs" />
     <Compile Include="ModelosUI\InventarioDTO.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />

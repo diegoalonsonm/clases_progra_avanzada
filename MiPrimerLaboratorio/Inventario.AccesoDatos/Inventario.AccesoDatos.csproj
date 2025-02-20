@@ -51,12 +51,19 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Cliente\ActualizarCliente\ActualizarClienteAD.cs" />
+    <Compile Include="Cliente\CrearCliente\CrearClienteAD.cs" />
+    <Compile Include="Cliente\EliminarCliente\EliminarClienteAD.cs" />
+    <Compile Include="Cliente\ListarCliente\ListarClienteAD.cs" />
+    <Compile Include="Cliente\ObtenerClientePorId\ObtenerClientePorIdAD.cs" />
     <Compile Include="Contexto.cs" />
     <Compile Include="Inventario\ActualizarInventario\ActualizarInventarioAD.cs" />
     <Compile Include="Inventario\CrearInventario\CrearInventarioAD.cs" />
     <Compile Include="Inventario\EliminarInventario\EliminarInventarioAD.cs" />
     <Compile Include="Inventario\ListarInventario\ListarInventarioAD.cs" />
-    <Compile Include="Inventario\ObtenerInventarioPorIdAD\ObtenerInventarioPorIdAD.cs" />
+    <Compile Include="Inventario\ObtenerInventarioPorId\ObtenerInventarioPorIdAD.cs" />
+    <Compile Include="ModelBuilder.cs" />
+    <Compile Include="Modelos\ClienteAD.cs" />
     <Compile Include="Modelos\InventarioAD.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>

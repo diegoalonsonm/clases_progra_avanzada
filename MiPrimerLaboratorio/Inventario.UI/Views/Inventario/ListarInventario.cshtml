@@ -83,9 +83,9 @@
                     @Html.DisplayFor(modelItem => item.Estado)
                 </td>
                 <td>
-                    @Html.ActionLink("Edit", "EditarInventario", new { /* id=item.PrimaryKey */ }) |
-                    @Html.ActionLink("Details", "DetallesInventario", new { /* id=item.PrimaryKey */ }) |
-                    @Html.ActionLink("Delete", "EliminarInventario", new { /* id=item.PrimaryKey */ })
+                    @Html.ActionLink("Edit", "EditarInventario", new { id=item.Id }) |
+                    @Html.ActionLink("Details", "DetallesInventario", new { id=item.Id }) |
+                    @Html.ActionLink("Delete", "EliminarInventario", new { id=item.Id })
                 </td>
             </tr>
         }

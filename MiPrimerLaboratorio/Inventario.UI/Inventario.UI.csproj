@@ -127,6 +127,7 @@
     <Compile Include="App_Start\BundleConfig.cs" />
     <Compile Include="App_Start\FilterConfig.cs" />
     <Compile Include="App_Start\RouteConfig.cs" />
+    <Compile Include="Controllers\ClienteController.cs" />
     <Compile Include="Controllers\HomeController.cs" />
     <Compile Include="Controllers\InventarioController.cs" />
     <Compile Include="Global.asax.cs">
@@ -194,6 +195,11 @@
     <Content Include="Views\Inventario\CrearInventario.cshtml" />
     <Content Include="Views\Inventario\EditarInventario.cshtml" />
     <Content Include="Views\Inventario\EliminarInventario.cshtml" />
+    <Content Include="Views\Cliente\ListarCliente.cshtml" />
+    <Content Include="Views\Cliente\DetallesCliente.cshtml" />
+    <Content Include="Views\Cliente\EditarCliente.cshtml" />
+    <Content Include="Views\Cliente\CrearCliente.cshtml" />
+    <Content Include="Views\Cliente\EliminarCliente.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
@@ -230,6 +236,10 @@
     <ProjectReference Include="..\Inventario.Abstracciones\Inventario.Abstracciones.csproj">
       <Project>{01AA52DD-6E27-43F0-BD5A-30C653BE898E}</Project>
       <Name>Inventario.Abstracciones</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Inventario.AccesoDatos\Inventario.AccesoDatos.csproj">
+      <Project>{B625FB6F-59B5-4F98-89B1-36304F186A38}</Project>
+      <Name>Inventario.AccesoDatos</Name>
     </ProjectReference>
     <ProjectReference Include="..\Inventario.LogicaNegocio\Inventario.LogicaNegocio.csproj">
       <Project>{3E493576-F7CC-4527-A327-F9F67B32AF99}</Project>

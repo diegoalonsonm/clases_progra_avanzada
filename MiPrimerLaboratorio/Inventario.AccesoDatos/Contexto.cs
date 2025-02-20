@@ -13,7 +13,16 @@ namespace Inventario.AccesoDatos
         public Contexto() : base("name=Contexto")
         {
         }
+        protected override void OnModelCreating(DbModelBuilder modelBuilder)
+        {
+            Database.SetInitializer<Contexto>(null);
+            modelBuilder.Entity<ClienteAD>().HasKey(c => c.idCliente);
+            modelBuilder.Entity<InventarioAD>().HasKey(i => i.Id);
+        }
 
         public DbSet<InventarioAD> inventario { get; set; }
+        public DbSet<ClienteAD> cliente { get; set; }
+
+        
     }
 }

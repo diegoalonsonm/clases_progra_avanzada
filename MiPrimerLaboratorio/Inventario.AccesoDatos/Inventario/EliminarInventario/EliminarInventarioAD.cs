@@ -1,4 +1,5 @@
-﻿using Inventario.Abstracciones.ModelosUI;
+﻿using Inventario.Abstracciones.AccessoDatos.Inventario.EliminarInventarioAD;
+using Inventario.Abstracciones.ModelosUI;
 using Inventario.AccesoDatos.Modelos;
 using System;
 using System.Collections.Generic;
