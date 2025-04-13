@@ -13,6 +13,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Inventario.LogicaNegocio", 
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Inventario.AccesoDatos", "Inventario.AccesoDatos\Inventario.AccesoDatos.csproj", "{B625FB6F-59B5-4F98-89B1-36304F186A38}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Inventario.UI.Identity", "Inventario.UI.Identity\Inventario.UI.Identity.csproj", "{9A6BAA77-5AF0-426F-B1EF-8EAB6BBB26E9}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -39,8 +41,15 @@ Global
 		{B625FB6F-59B5-4F98-89B1-36304F186A38}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B625FB6F-59B5-4F98-89B1-36304F186A38}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{B625FB6F-59B5-4F98-89B1-36304F186A38}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9A6BAA77-5AF0-426F-B1EF-8EAB6BBB26E9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9A6BAA77-5AF0-426F-B1EF-8EAB6BBB26E9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9A6BAA77-5AF0-426F-B1EF-8EAB6BBB26E9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9A6BAA77-5AF0-426F-B1EF-8EAB6BBB26E9}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {2D35EF50-CA7E-4D3A-B1FA-B2FA3B2188D5}
 	EndGlobalSection
 EndGlobal

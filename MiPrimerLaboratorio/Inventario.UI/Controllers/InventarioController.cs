@@ -20,6 +20,7 @@ using System.Web.SessionState;
 
 namespace Inventario.UI.Controllers
 {
+    [Authorize]
     public class InventarioController : Controller
     {
         private IListarInventarioLN _listarInventario;
@@ -38,6 +39,7 @@ namespace Inventario.UI.Controllers
         }
 
         // GET: Inventario
+        [Authorize(Roles = "Administrador")]
         public ActionResult ListarInventario()
         {
             List<InventarioDTO> inventario = _listarInventario.ListarInventario();
